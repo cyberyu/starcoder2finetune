@@ -1,0 +1,27 @@
+# Ignore all .jsonl, .gz, .zip files larger than 10MB (handled by convention, not by .gitignore itself)
+# So, ignore all such files and manually track small ones if needed
+
+*.jsonl
+*.json
+*.gz
+*.zip
+*.tokens
+
+# Ignore folders commonly used for large files or datasets
+data/
+datasets/
+checkpoints/
+outputs/
+logs/
+tmp/
+cache/
+__pycache__/
+
+# Ignore any file with 'large' in its name (common convention)
+*large*
+
+# Ignore all folders in the current directory
+*/
+
+
+
