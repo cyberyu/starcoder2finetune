@@ -1,0 +1,72 @@
+  import pkg_resources
+================================================================================
+PACKAGE VERSION REPORT for test.py
+================================================================================
+Python version: 3.9.23 (main, Jun  5 2025, 13:40:20) 
+[GCC 11.2.0]
+Python executable: /home/itiviti/anaconda3/envs/refact3/bin/python
+
+DIRECT IMPORTS FROM test.py:
+----------------------------------------
+argparse             : Built-in module
+multiprocessing      : Built-in module
+os                   : Built-in module
+datasets             : 4.0.0
+                       Dependencies: filelock, numpy>=1.17, pyarrow>=15.0.0, dill<0.3.9,>=0.3.0, pandas
+                       ... and 8 more
+torch                : 2.5.1
+                       Dependencies: filelock, typing-extensions>=4.8.0, networkx, jinja2, fsspec
+                       ... and 1 more
+transformers         : 4.53.3
+                       Dependencies: filelock, huggingface-hub<1.0,>=0.30.0, numpy>=1.17, packaging>=20.0, pyyaml>=5.1
+                       ... and 5 more
+accelerate           : 1.7.0
+peft                 : 0.15.2
+trl                  : 0.6.0
+
+RELATED/DEPENDENCY PACKAGES:
+----------------------------------------
+numpy                : 1.26.4
+pandas               : 2.3.3
+pyarrow              : 21.0.0
+tokenizers           : 0.21.2
+safetensors          : 0.5.3
+huggingface-hub      : 0.35.3
+bitsandbytes         : 0.46.1
+scipy                : 1.13.1
+tqdm                 : 4.67.1
+requests             : 2.32.5
+packaging            : 25.0
+filelock             : 3.18.0
+fsspec               : 2024.6.1
+typing-extensions    : 4.15.0
+psutil               : 7.1.0
+
+CUDA AND GPU INFORMATION:
+----------------------------------------
+PyTorch CUDA available: True
+CUDA version (PyTorch): 12.1
+cuDNN version: 90100
+Number of GPUs: 1
+GPU 0: NVIDIA A10G
+
+DETAILED TRANSFORMERS INFORMATION:
+----------------------------------------
+Transformers version: 4.53.3
+Transformers file location: /home/itiviti/anaconda3/envs/refact3/lib/python3.9/site-packages/transformers/__init__.py
+✗ top_k_top_p_filtering not available: cannot import name 'top_k_top_p_filtering' from 'transformers' (/home/itiviti/anaconda3/envs/refact3/lib/python3.9/site-packages/transformers/__init__.py)
+✗ top_k_top_p_filtering not available from generation.utils: cannot import name 'top_k_top_p_filtering' from 'transformers.generation.utils' (/home/itiviti/anaconda3/envs/refact3/lib/python3.9/site-packages/transformers/generation/utils.py)
+
+DETAILED TRL INFORMATION:
+----------------------------------------
+Error importing trl: cannot import name 'top_k_top_p_filtering' from 'transformers' (/home/itiviti/anaconda3/envs/refact3/lib/python3.9/site-packages/transformers/__init__.py)
+
+ENVIRONMENT INFORMATION:
+----------------------------------------
+CONDA_DEFAULT_ENV: refact3
+VIRTUAL_ENV: Not set
+PATH: /home/itiviti/anaconda3/envs/refact3/bin:/home/itiviti/anaconda3/condabin:/home/itiviti/.local/bin:/home/itiviti/bin:/usr/share/Modules/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin...
+
+================================================================================
+END OF REPORT
+================================================================================
