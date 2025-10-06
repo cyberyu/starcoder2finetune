@@ -1,48 +1,48 @@
- import pkg_resources
+  import pkg_resources
 ================================================================================
 PACKAGE VERSION REPORT for test.py
 ================================================================================
-Python version: 3.9.23 (main, Jun  5 2025, 13:40:20) 
+Python version: 3.9.21 (main, Dec 11 2024, 16:24:11) 
 [GCC 11.2.0]
-Python executable: /home/syu2/anaconda3/envs/refact3/bin/python
+Python executable: /home/syu2/anaconda3/envs/flashenv/bin/python
 
 DIRECT IMPORTS FROM test.py:
 ----------------------------------------
 argparse             : Built-in module
 multiprocessing      : Built-in module
 os                   : Built-in module
-datasets             : 4.0.0
+datasets             : 3.6.0
                        Dependencies: filelock, numpy>=1.17, pyarrow>=15.0.0, dill<0.3.9,>=0.3.0, pandas
                        ... and 8 more
 torch                : 2.6.0
                        Dependencies: filelock, typing-extensions>=4.10.0, networkx, jinja2, fsspec
                        ... and 15 more
-transformers         : 4.53.3
+transformers         : 4.52.4
                        Dependencies: filelock, huggingface-hub<1.0,>=0.30.0, numpy>=1.17, packaging>=20.0, pyyaml>=5.1
                        ... and 5 more
 accelerate           : 1.7.0
 peft                 : 0.15.2
-trl                  : Not found
+trl                  : 0.17.0
 
 RELATED/DEPENDENCY PACKAGES:
 ----------------------------------------
 numpy                : 1.26.4
-pandas               : 2.3.0
-pyarrow              : 20.0.0
-tokenizers           : 0.21.2
+pandas               : 2.2.3
+pyarrow              : 19.0.0
+tokenizers           : 0.21.1
 safetensors          : 0.5.3
-huggingface-hub      : 0.33.0
-bitsandbytes         : 0.46.1
+huggingface-hub      : 0.32.3
+bitsandbytes         : 0.46.0
 scipy                : 1.13.1
 scikit-learn         : 1.6.1
-matplotlib           : 3.9.4
+matplotlib           : 3.9.2
 tqdm                 : 4.67.1
-requests             : 2.32.4
-packaging            : 25.0
-filelock             : 3.18.0
+requests             : 2.32.3
+packaging            : 24.2
+filelock             : 3.17.0
 fsspec               : 2025.3.0
-typing-extensions    : 4.14.0
-psutil               : 5.9.1
+typing-extensions    : 4.12.2
+psutil               : 5.9.0
 
 CUDA AND GPU INFORMATION:
 ----------------------------------------
@@ -54,20 +54,22 @@ GPU 0: NVIDIA GeForce RTX 4090
 
 DETAILED TRANSFORMERS INFORMATION:
 ----------------------------------------
-Transformers version: 4.53.3
-Transformers file location: /home/syu2/anaconda3/envs/refact3/lib/python3.9/site-packages/transformers/__init__.py
-✗ top_k_top_p_filtering not available: cannot import name 'top_k_top_p_filtering' from 'transformers' (/home/syu2/anaconda3/envs/refact3/lib/python3.9/site-packages/transformers/__init__.py)
-✗ top_k_top_p_filtering not available from generation.utils: cannot import name 'top_k_top_p_filtering' from 'transformers.generation.utils' (/home/syu2/anaconda3/envs/refact3/lib/python3.9/site-packages/transformers/generation/utils.py)
+Transformers version: 4.52.4
+Transformers file location: /home/syu2/anaconda3/envs/flashenv/lib/python3.9/site-packages/transformers/__init__.py
+✗ top_k_top_p_filtering not available: cannot import name 'top_k_top_p_filtering' from 'transformers' (/home/syu2/anaconda3/envs/flashenv/lib/python3.9/site-packages/transformers/__init__.py)
+✗ top_k_top_p_filtering not available from generation.utils: cannot import name 'top_k_top_p_filtering' from 'transformers.generation.utils' (/home/syu2/anaconda3/envs/flashenv/lib/python3.9/site-packages/transformers/generation/utils.py)
 
 DETAILED TRL INFORMATION:
 ----------------------------------------
-Error importing trl: No module named 'trl'
+TRL version: 0.17.0
+TRL file location: /home/syu2/anaconda3/envs/flashenv/lib/python3.9/site-packages/trl/__init__.py
+✓ SFTTrainer and SFTConfig are available
 
 ENVIRONMENT INFORMATION:
 ----------------------------------------
-CONDA_DEFAULT_ENV: refact3
+CONDA_DEFAULT_ENV: flashenv
 VIRTUAL_ENV: Not set
-PATH: /home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/syu2/.nvm/versions/node/v22.17.0/bin:/usr/local/cuda/bin:/home/syu2/anaconda3/envs/refact3/bin:/home/syu2/anaconda3/condabin:/usr/l...
+PATH: /home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/syu2/.nvm/versions/node/v22.17.0/bin:/usr/local/cuda/bin:/home/syu2/anaconda3/envs/flashenv/bin:/home/syu2/anaconda3/condabin:/usr/...
 
 ================================================================================
 END OF REPORT
