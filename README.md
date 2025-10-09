@@ -1,3 +1,5 @@
+https://huggingface.co/docs/peft/main/en/developer_guides/model_merging
+
 vllm serve starcoder2_7b_triple_Train_w8a8_optimal
 
 🎯 Running FIM validation on 1000 test cases...
